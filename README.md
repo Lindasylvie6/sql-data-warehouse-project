@@ -1,35 +1,26 @@
 # Data Warehouse and Analytics Project
 
-welcome to the **Data Warehouse and Analytics Project** repository!
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a poefolio project, highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse and Analytics Project** repository.
+This portfolio project presents a medallion-based data warehouse that transforms raw data into clean, structured, and insight-driven outputs using industry best practices.
 
 ---
 
-## Project Requirements
+## Project Overview
 
-##  Building the Data Warehouse (Data Engineering)
+This project showcases the design and implementation of a modern data warehouse, covering data architecture, **ETL pipelines, data modeling, and analytics**. It emphasizes **SQL development, data integration, and troubleshooting data quality** issues, reflecting key responsibilities such as **building, maintaining, and optimizing data pipelines** in a collaborative data engineering environment.
 
-### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- **Data Sources**: Importing data from two source systems (ERP and CRM ) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only;historization of data is not required.
-- **Documentation**: Provide clear documentation of the data modelto support both business stakeholders and analytics teams.
 
 ---
 
-### BI: Analytics & Reporting ( Data Analytics)
+### Data Architecture
+This project Implements a scalable medallion architecture (Bronze, Silver, Gold) to organize data from raw ingestion to analytics-ready outputs.
+<img width="884" height="662" alt="Data_Architecture" src="https://github.com/user-attachments/assets/dae22a4b-2080-493e-aa24-01bab87b8f4c" />
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+**Bronze Layer:** Stores raw, unprocessed data ingested from source systems with minimal transformation for traceability.
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+**Silver Layer:** Cleanses, standardizes, and transforms raw data into structured, reliable datasets ready for analysis.
+
+**Gold Layer:** Delivers curated, business-ready data models optimized for reporting, dashboards, and analytics.
 
 ---
 
@@ -37,6 +28,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 This project is licensed under the [MIT LICENSE](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+---
 ## About me
 
-Hi there! I 'm **Sylvie Linda**. I'm a data professional with experience in data integration, analytics, and visualization. Skilled in SQL, Power BI, Python, and ETL processes. Passionate about turning complex data into actionable insights to drive business decisions.
+Hi there! I 'm **Sylvie Linda**. I am an aspiring data engineer with hands-on experience in SQL, data transformation, and pipeline development. I have worked with complex datasets to ensure data quality, consistency, and reliability, and I am passionate about building scalable data solutions that support analytics and business insights.
