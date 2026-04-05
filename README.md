@@ -14,6 +14,7 @@ This project showcases the design and implementation of a modern data warehouse,
 
 ### Data Architecture
 This project Implements a scalable medallion architecture (Bronze, Silver, Gold) to organize data from raw ingestion to analytics-ready outputs.
+
 <img width="884" height="662" alt="Data_Architecture" src="https://github.com/user-attachments/assets/dae22a4b-2080-493e-aa24-01bab87b8f4c" />
 
 **Bronze Layer:** Stores raw, unprocessed data ingested from source systems with minimal transformation for traceability.
